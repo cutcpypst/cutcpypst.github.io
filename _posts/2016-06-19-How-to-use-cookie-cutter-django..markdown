@@ -48,7 +48,7 @@ Then after typing:
 
 $ cookiecutter https://github.com/pydanny/cookiecutter-django.git
 And answering all these questions:
-{% highlight %}
+
 project_name [project_name]: blog_cookiecutter
 repo_name [blog_cookiecutter]: blog-cookiecutter
 author_name [Your Name]: Krzysztof Żuraw
@@ -73,7 +73,7 @@ Select open_source_license:
 3 - Not open source
 Choose from 1, 2, 3 [1]: 1
 You got the simple django application with celery, sentry, tests, grunt, less and docker.
-{% endhighlight%}
+
 Folder structure looks as follows:
 
 $ tree . -a -L 3
